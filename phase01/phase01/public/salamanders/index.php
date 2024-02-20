@@ -1,5 +1,5 @@
 <!-- require initialize.php -->
-
+<?php require_once('../../private/initialize.php'); ?>
 
 <!-- 
   Write a salamanders array with the following
