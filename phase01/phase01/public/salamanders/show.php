@@ -1,16 +1,9 @@
 <?php require_once('../../private/initialize.php'); 
 
-// fancy if...else
-
-
-// if the id is not empty assign it the value from $_GET['id']
-// else $id = 1
-// or use the non-coalesing operator
 $id = $_GET['id'] ?? 1;
 
 $pageTitle = 'Salamander Details';
 include('../../private/shared/salamander-header.php');
-
 ?>
 
 <h2>Salamander Details</h2>
